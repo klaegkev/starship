@@ -1,0 +1,4 @@
+# To Set in Powershell $PROFILE file:
+
+Invoke-Expression (&starship init powershell)
+$env:STARSHIP_CONFIG = "$HOME\.config\starship\starship.toml"
